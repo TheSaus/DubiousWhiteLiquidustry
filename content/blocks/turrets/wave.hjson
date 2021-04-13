@@ -1,19 +1,23 @@
-{
-  "reloadTime": 2,
-  "shotCone": 50,
-  "ammoTypes": {
-    "water": "waterShot",
-    "cryofluid": "cryoShot",
-    "slag": "slagShot",
-    "oil": "oilShot",
-    "dubiousWhiteLiquid": {
-      "type": "LiquidBulletType",
-      "speed": 3.5,
-      "damage": 5,
-      "lifetime": 50,
-      "status": "melting",
-      "liquid": "dubious-white-liquid",
-      "knockback": 1
-    }
-  }
+//use a custom ogg sound for shooting
+//shootSound: swings
+reloadTime: 2
+shotCone: 50
+//define ammo, which is done by assigning a bullet type per item
+ammoTypes: {
+  //re-define old types of ammo
+  water: waterShot
+  cryofluid: cryoShot
+  slag: slagShot
+  oil: oilShot
+  
+  //define a custom type with different properties
+  cum: {
+    type: LiquidBulletType
+    speed: 3.5
+	damage: 5
+	lifetime: 50
+	status: melting
+    liquid: cum
+	knockback: 1
+}
 }
