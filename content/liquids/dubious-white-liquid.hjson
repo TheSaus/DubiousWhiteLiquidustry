@@ -1,16 +1,16 @@
-//this is a stupid idea lmao
-name: Dubious White Liquid
-description: a delicious... drink?
-heatCapacity: 1.47f
-temperature: 0.25f
-effect: unmoving
-color: F7F7F7
-barColor: F7F7F7
-lightColor: F7F7F7
-research: {
-    parent:cryofluid
-    requirements:
-    [
-        {item: metaglass, amount: 69000}
+{
+  "name": "Dubious White Liquid",
+  "description": "a delicious... drink?",
+  "heatCapacity": "1.47f",
+  "temperature": "0.25f",
+  "effect": "unmoving",
+  "color": "F7F7F7",
+  "barColor": "F7F7F7",
+  "lightColor": "F7F7F7",
+  "research": {
+    "parent": "cryofluid",
+    "requirements": [
+      metaglass/69000
     ]
+  }
 }
