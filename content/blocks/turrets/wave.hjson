@@ -11,13 +11,13 @@ ammoTypes: {
   oil: oilShot
   
   //define a custom type with different properties
-  cum: {
+  dubiousWhiteLiquid: {
     type: LiquidBulletType
     speed: 3.5
 	damage: 5
 	lifetime: 50
 	status: melting
-    liquid: cum
+    liquid: dubious-white-liquid
 	knockback: 1
 }
 }

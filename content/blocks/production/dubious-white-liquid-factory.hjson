@@ -1,5 +1,5 @@
-name: Horny Factory
-description: this is the cum zone
+name: Dubious White Liquid Factory
+description: welcome to the [REDACTED] zone
 type: GenericCrafter
 itemCapacity: 10
 health: 420
@@ -8,12 +8,12 @@ liquidCapacity: 100
 hasPower: true
 hasItems: true
 hasLiquids: true
-outputLiquid: cum/10
+outputLiquid: dubious-white-liquid/10
 craftTime: 30
 activeSound: drill
 activeSoundVolume: 1.51
 category: crafting
-research: cum
+research: dubious-white-liquid
 requirements: [
   copper/150
   lead/175

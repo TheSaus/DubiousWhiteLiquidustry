@@ -9,14 +9,14 @@ ammoTypes: {
   oil: heavyOilShot
   
   //define a custom type with different properties
-  //heavyCumShot
-  cum: {
+  //heavy[REDACTED]Shot
+  heavyDubiousWhiteLiquid: {
     type: LiquidBulletType
     speed: 4
 	damage: 7
 	lifetime: 49
 	status: melting
-    liquid: cum
+    liquid: dubious-white-liquid
 	knockback: 2
 	puddleSize: 8
 	drag: 0.001
